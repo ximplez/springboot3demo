@@ -21,6 +21,7 @@ jobs:
       with:
         # The GraalVM version
         graalvm-version: 22.3.0
+        java-version: 17
 
     # 项目打包
     - name: Build with Maven
