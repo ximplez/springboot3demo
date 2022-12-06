@@ -26,4 +26,4 @@ jobs:
 
     # 项目打包
     - name: Build with Maven
-      run: mvn -Pnative spring-boot:build-image
+      run: mvn spring-boot:build-image
