@@ -17,8 +17,7 @@ jobs:
     # 运行步骤
     steps:
     - uses: helpermethod/graalvm-native-image-toolchain@0.0.2
-    - name: graalvm-native-image-toolchain
-      uses: actions/setup-java@v3.0.0
+      name: graalvm-native-image-toolchain
       with:
         # The GraalVM version
         graalvm-version: 22.3.0
