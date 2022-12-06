@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     # 运行步骤
     steps:
+    - uses: actions/checkout@v2
     - uses: helpermethod/graalvm-native-image-toolchain@0.0.2
       name: graalvm-native-image-toolchain
       with:
